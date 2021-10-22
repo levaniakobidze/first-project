@@ -76,3 +76,41 @@ color: #000;
     background-color: #fff;
     color: #000;
 }
+
+@media (max-width:880px){
+    .button{
+        position: absolute;
+        left: 55%;
+        top: 70%;
+        padding: auto;
+    }
+    #btn1{
+        padding: 25px;
+    }
+    #btn2{
+        position: absolute;
+       top: 290%;
+       left: 1%;
+       padding: 25px;
+
+    }
+    .title{
+        position: absolute;
+        
+        top: 50%;
+        left:55%;
+        transform: translate(-50%,-50%);
+    }
+    .title h1{
+        font-size: 50px;
+    }
+    .test{
+        position: absolute;
+        left: 23%;
+        top: -85%;
+    }
+    .title hi.test{
+        position: absolute;
+        left: 90%;
+    }
+}
