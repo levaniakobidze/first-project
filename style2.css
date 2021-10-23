@@ -208,7 +208,7 @@ color: #000;
     left: 72%;
 }
 .galaxy4{
-    height: 130px;
+    height: 134px;
     width: 234px;
     position: absolute;
     top: 22.6%;
@@ -216,6 +216,102 @@ color: #000;
     transition: 0.6s ease;
 }
 .galaxy4:hover{
+    position: absolute;
+    background-image: url(../images/whitebeck.jpg);
+    height:auto ;
+    width: 370px;
+    //height: 200px;
+    cursor: pointer;
+    z-index: 1;
+}
+.first5{
+    height: auto;
+    width: 250px;
+    position: absolute;
+    top:55%;
+    left: 72%;
+}
+.galaxy5{
+    height: 134px;
+    width: 234px;
+    position: absolute;
+    top: 57.5%;
+    left: 72.6%;
+    transition: 0.6s ease;
+}
+.galaxy5:hover{
+    position: absolute;
+    background-image: url(../images/whitebeck.jpg);
+    height:auto ;
+    width: 370px;
+    height: 200px;
+    cursor: pointer;
+    z-index: 1;
+}
+.first6{
+    height: auto;
+    width: 250px;
+    position: absolute;
+    top:55%;
+    left: 51%;
+}
+.galaxy6{
+    height: 134px;
+    width: 234px;
+    position: absolute;
+    top: 57.5%;
+    left: 51.6%;
+    transition: 0.6s ease;
+}
+.galaxy6:hover{
+    position: absolute;
+    background-image: url(../images/whitebeck.jpg);
+    height:auto ;
+    width: 370px;
+    height: 200px;
+    cursor: pointer;
+    z-index: 1;
+}
+.first7{
+    height: auto;
+    width: 250px;
+    position: absolute;
+    top:55%;
+    left: 30%;
+}
+.galaxy7{
+    height: 134px;
+    width: 234px;
+    position: absolute;
+    top: 57.5%;
+    left: 30.6%;
+    transition: 0.6s ease;
+}
+.galaxy7:hover{
+    position: absolute;
+    background-image: url(../images/whitebeck.jpg);
+    height:auto ;
+    width: 370px;
+    height: 200px;
+    cursor: pointer;
+    z-index: 1;
+}
+.first8{
+    height: auto;
+    width: 250px;
+    position: absolute;
+    top:55%;
+    left: 9%;
+}
+.galaxy8{
+    height: 134px;
+    width: 234px;
+    position: absolute;
+    top: 57.5%;
+    left: 9.6%;
+    transition: 0.6s ease;
+}
+.galaxy8:hover{
     position: absolute;
     background-image: url(../images/whitebeck.jpg);
     height:auto ;
