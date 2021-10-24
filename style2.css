@@ -214,13 +214,14 @@ color: #000;
     top: 22.6%;
     left: 72.6%;
     transition: 0.6s ease;
+    z-index: 0;
 }
 .galaxy4:hover{
     position: absolute;
     background-image: url(../images/whitebeck.jpg);
     height:auto ;
     width: 370px;
-    //height: 200px;
+    height: 200px;
     cursor: pointer;
     z-index: 1;
 }
@@ -286,6 +287,7 @@ color: #000;
     top: 57.5%;
     left: 30.6%;
     transition: 0.6s ease;
+    z-index: 1;
 }
 .galaxy7:hover{
     position: absolute;
@@ -310,6 +312,8 @@ color: #000;
     top: 57.5%;
     left: 9.6%;
     transition: 0.6s ease;
+    z-index: 1;
+    
 }
 .galaxy8:hover{
     position: absolute;

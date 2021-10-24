@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap');
+*{
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+body{
+    
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(./images/back.jpg);
+    
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+ul{
+    float: right;
+
+}
+ul li{
+    display: inline-block;
+margin-top: 25px;
+}
+ul li a{
+    color: white;
+    padding: 5px 20px;
+    border-bottom: 1px solid transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color:    #fff;
+    color: black;
+}
+.logo img{
+    float: left;
+    width: 90px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: 100px ;
+   border-bottom:solid #fff 2px; 
+   border-top:solid #fff 2px;
+    padding-right: 16px;
+    transition: 0.6s ease;
+}
+.logo img:hover{
+    border:solid #fff 2px;
+    box-shadow: 5px 10px #fff;
+    cursor: pointer;
+}
+.main{
+    max-width: 1200px;
+    height: auto;
+}
+ul li.active a{
+background-color: #fff;
+color: #000;
+}
+.title{
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: #fff;
+    font-size: 70px;
+    font-family:  'IBM Plex Sans', sans-serif;
+    
+}
+.button{
+    position: absolute;
+    top: 60%;
+
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    color: #fff;
+    
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    transition: 0.6s ease;
+}
+.btn:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+@media (max-width:880px){
+    .button{
+        position: absolute;
+        left: 55%;
+        top: 70%;
+        padding: auto;
+    }
+    #btn1{
+        padding: 25px;
+    }
+    #btn2{
+        position: absolute;
+       top: 290%;
+       left: 1%;
+       padding: 25px;
+
+    }
+    .title{
+        position: absolute;
+        
+        top: 50%;
+        left:55%;
+        transform: translate(-50%,-50%);
+    }
+    .title h1{
+        font-size: 50px;
+    }
+    .test{
+        position: absolute;
+        left: 23%;
+        top: -85%;
+    }
+    .title hi.test{
+        position: absolute;
+        left: 90%;
+    }
+}
+.title2{
+    position: absolute;
+    top: 40%;
+    left: 38%;
+
+}
+
+.title2 h1{
+    color: #fff;
+    font-size: 80px;
+}
+
+.icons{
+    position: absolute;
+    top: 54%;
+    left: 32%;
+
+}
+.back{
+    width: 500px;
+    height: 40px;
+}
+.facebook{
+    position: absolute;
+    top: 13%;
+    left:20%;
+    max-width: 30px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.facebook:hover{
+    box-shadow: 5px 5px #000;
+}
+.instagram{
+    position: absolute;
+    top: 13%;
+    left:30%;
+    max-width: 30px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.instagram:hover{
+    box-shadow: 3px 5px #000;
+}
+.youtube{
+    position: absolute;
+    top: 3%;
+    left:40%;
+    max-width: 38px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.youtube:hover{
+    box-shadow: 5px 3px #000;
+}
+.twitter{
+    position: absolute;
+    top: 7%;
+    left:51.5%;
+    max-width: 34px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.6s ease;
+
+}
+.twitter:hover{
+    box-shadow: 5px 5px #000;
+}
+.email{
+    position: absolute;
+    top: 7%;
+    left:62.5%;
+    max-width: 34px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.email:hover{
+    box-shadow: 5px 5px #000;
+}
+.viber{
+    position: absolute;
+    top: 7%;
+    left:73%;
+    max-width: 34px;
+    height: auto;
+    cursor: pointer;
+    transition: 0.6s ease;
+}
+.viber:hover{
+    box-shadow: 5px 5px #000;
+}
